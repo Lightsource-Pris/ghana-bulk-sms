@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #D5E1DB
+}
+.imge{
+    height: 600px;
+    /* width: 50%; */
+    /* margin-left: -20px; */
+    /* border: 1px solid black; */
+}
+.row-1{
+    height: 100%;
+}
+.img{
+    height: 100%;
+    width: 90%;
+}
+.right{
+    margin-top: 60px;
+    
+    height: 100%;
+    /* width: 50%; */
+    /* border: 1px solid black; */
+   
+}
+@media screen and (min-width: 992px) {
+    .right {
+        margin-left: -70px;
+        margin-top: 170px;
+    }
+  }
+.head{
+    color: #181818;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: bold;
+    font-family:'Roboto Slab', sans-serif;
+}
+.low{
+    font-size: 54px;
+}
+.text{
+    color: #181818;
+    font-size: 28px;
+    line-height: 27px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.mybtn{
+    margin-top: 20px;
+    width: 242px;
+    height: 50px;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.award{
+    margin-top: 30px;
+    color: #181818;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-bottom: 60px;
+}
+.customer{
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
