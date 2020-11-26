@@ -13,8 +13,9 @@
         <link  href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="images/favicon.png" rel="shortcut icon" type="image/png">
     </head>
-    <body>
-        <section class="container-fluid">
+    <body onload="myFunction()">
+        <div id="loader"></div>
+        <section class="container-fluid" id="page">
             <div class="row row-1">
                 <div class="col-sm-12 col-md-12 col-lg-6 imge">
                     <img class="img" src="./images/Bulk-sms-astonished.png">
@@ -41,5 +42,18 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
     <script src="bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        document.getElementById("page").style.display = "none";
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 1000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("page").style.display = "block";
+        }
+        </script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
